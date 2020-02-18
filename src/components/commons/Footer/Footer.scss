@@ -1,0 +1,9 @@
+@import '../../../scss/variables.scss';
+
+.contenedor_footer {
+    height: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;  
+
+    background-image: linear-gradient($navbar_degrade_rotacion, $navbar_degrade_color1 0%, $navbar_degrade_color2 100%);
+    }

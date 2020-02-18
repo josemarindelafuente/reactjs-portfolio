@@ -1,0 +1,6 @@
+@import '../../../scss/variables.scss';
+
+
+.navbar_degrade {
+    background-image: linear-gradient($navbar_degrade_rotacion, $navbar_degrade_color1 0%, $navbar_degrade_color2 100%);
+    }
