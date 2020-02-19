@@ -1,9 +1,54 @@
 @import '../../../scss/variables.scss';
 
 .contenedor_footer {
-    height: 200px;
+    height: 80px;
     padding-top: 15px;
     padding-bottom: 15px;  
 
     background-image: linear-gradient($navbar_degrade_rotacion, $navbar_degrade_color1 0%, $navbar_degrade_color2 100%);
     }
+
+
+.contenedor_footer  a:link {
+color: #FFF;
+}
+
+/* visited link */
+.contenedor_footer    a:visited {
+color: #FFF;
+}
+
+/* mouse over link */
+.contenedor_footer  a:hover {
+color: #FFF;
+}
+
+/* selected link */
+.contenedor_footer  a:active {
+color: #FFF;
+}    
+
+.footer_col_iz {
+    text-align: center;
+}
+
+.footer_col_de {
+    text-align: center;
+}
+
+.footer_col_iz img{
+    display:block;
+    margin:auto;
+    }
+
+@media screen and (max-width: 800px) {
+
+.contenedor_footer{
+    height: 120px;
+    padding-top: 15px;
+    padding-bottom: 15px;  
+
+    background-image: linear-gradient($navbar_degrade_rotacion, $navbar_degrade_color1 0%, $navbar_degrade_color2 100%);
+}
+    
+}    
