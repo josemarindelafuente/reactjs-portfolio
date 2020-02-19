@@ -14,7 +14,7 @@ const Footer = () => {
                     </div>
 
                     <div className="col-12 col-md-6 footer_col_de">
-                    <p>Visita mi sitio Web <a href="https://www.marindelafuente.com.ar" target="_blank" >www.marindelafuente.comar</a>
+                    <p>Visita mi sitio Web <a href="https://www.marindelafuente.com.ar" target="_blank rel="noopener noreferrer >www.marindelafuente.comar</a>
                     </p>
                     </div>
 

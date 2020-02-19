@@ -17,7 +17,11 @@ const NewsBlog = () => {
 
 conectarAPI();
 
-return ( <div> <NewsBlogPost noticias={noticias} /></div> );
+return ( 
+<div> 
+<p className="p_aclaracion">Esta sección de noticias se carga automáticamente usando las APIS publicadas en el sitio www.marindelafuente.com.ar</p>
+    <NewsBlogPost noticias={noticias} />
+</div> );
 
 }
  

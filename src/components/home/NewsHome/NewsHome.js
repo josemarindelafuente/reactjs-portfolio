@@ -12,6 +12,8 @@ const NewsHome = ({noticias}) => {
 
         <div className="titulo_newsHome">Ultimas Noticias</div>
 
+        <p className="p_aclaracion">Esta sección de noticias se carga automáticamente usando las APIS publicadas en el sitio www.marindelafuente.com.ar</p>
+
         <div className="row">
                 {
                     noticias.map( noticia => (

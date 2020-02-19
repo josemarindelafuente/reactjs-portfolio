@@ -35,8 +35,6 @@ conectarAPI();
                 <p>
                 Mi Labor profesional se enfoca en el asesoramiento a Empresas, Pymes, Entidades de Gobierno y profesionales de distintas áreas a conseguir sus objetivos en materia de innovación tecnológica, informatización y concientización sobre tecnologías de la información y las comunicaciones.
                 </p>
-
-                <MisFotos />
             </div>
 
             <Visor360 />
@@ -44,6 +42,8 @@ conectarAPI();
             <MisServicios />
 
             <NewsHome noticias={noticias} />
+
+            <MisFotos />
             
         </div>
      );
